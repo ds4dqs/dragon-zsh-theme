@@ -52,6 +52,10 @@ function dragon_check_ssh() {
     echo "($SESSION_TYPE)"
 }
 
+function dragon_dday() {
+    node -e 'cnt=Math.floor((new Date()-new Date("'$1'"))/3600000/24);console.log(`D${cnt>=0?"+":""}${cnt}`)'
+}
+
 function get_right_prompt() {
     if git rev-parse --git-dir > /dev/null 2>&1; then
         if [[ -z $(git_prompt_info) ]]; then
@@ -86,7 +90,14 @@ function get_prompt() {
     DRAGON_PROMPT="$DRAGON_PROMPT$RESET"
     DRAGON_SESSION_INDICATOR=$(dragon_check_ssh)
     
-    echo "$DRAGON_PREFIX $DRAGON_USER$DRAGON_SEPARATOR$DRAGON_MACHINE: $DRAGON_DIRECTORY $DRAGON_SESSION_INDICATOR $DRAGON_DATE
+    DRAGON_COUNTDOWN=""
+    for DRAGON_COUNTDOWN_DAY in $ANNIVERSARIES; do
+        DRAGON_COUNTDOWN="$DRAGON_COUNTDOWN $(dragon_dday $DRAGON_COUNTDOWN_DAY)"
+    done
+
+    DRAGON_COUNTDOWN=$(echo $DRAGON_COUNTDOWN | cut -c 2-)
+
+    echo "$DRAGON_PREFIX $DRAGON_USER$DRAGON_SEPARATOR$DRAGON_MACHINE: $DRAGON_DIRECTORY $DRAGON_SESSION_INDICATOR $DRAGON_DATE $DRAGON_COUNTDOWN
 $DRAGON_PROMPT"
 }
 
