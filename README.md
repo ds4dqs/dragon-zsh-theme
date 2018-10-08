@@ -13,7 +13,7 @@ dragon is a minimalistic zsh prompt theme for git users
 *   Git prompt info
 *   Git status info
 
-![screenshot](https://github.com/sabertazimi/dragon-zsh-theme/raw/master/dragon-zsh-theme.png)
+![screenshot](dragon-zsh-theme.png)
 
 ## License
 
