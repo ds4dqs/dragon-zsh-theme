@@ -7,7 +7,9 @@ dragon is a minimalistic zsh prompt theme for git users
 *   Pretty prefix prompt signature
 *   Pretty color
 *   Current directory
-*   Time stamp
+*   Time stamp (in ISO 8601 format)
+*   D-Day counter (require Node.JS)
+*   SSH session indicator
 *   Git prompt info
 *   Git status info
 
@@ -15,7 +17,7 @@ dragon is a minimalistic zsh prompt theme for git users
 
 ## License
 
-MIT License Copyright (c) 2017 [sabertazimi](https://github.com/sabertazimi)
+MIT License Copyright (c) 2017 [sabertazimi](https://github.com/sabertazimi) and [perillamint](https://github.com/perillamint)
 
 ## Contact
 
