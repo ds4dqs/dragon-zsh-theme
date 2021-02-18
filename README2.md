@@ -16,7 +16,7 @@ ohmyzsh 폴더에 dragon-zsh-theme 파일 넣고,
 
 sudo vi ~/.zshrc
 
-ZSH_THEME="dragon"
+```ZSH_THEME="dragon"
 .
 .
 .
