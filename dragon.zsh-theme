@@ -76,7 +76,7 @@ function get_prompt() {
         DRAGON_PREFIX="$GREEN⬢"
     fi
 
-    DRAGON_DATE="$CYAN%D{%FT%H:%M:%S%z}"
+    DRAGON_DATE="$CYAN%D{%F, %H:%M:%S}"
     DRAGON_USER="%n"
     DRAGON_SEPARATOR="$RESET@"
     DRAGON_MACHINE="$MAGENTA%m"
