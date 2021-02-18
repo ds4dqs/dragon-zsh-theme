@@ -6,8 +6,8 @@ sudo apt install git
 
 chsh -s /usr/bin/zsh
 
-logout, login
-0
+logout, login, 
+0, 
 wget(ohmyzsh)
 
 sh -c "$(wget -O- <https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh>)"
