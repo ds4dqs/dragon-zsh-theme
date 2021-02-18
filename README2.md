@@ -1,5 +1,6 @@
 ### zsh
-```sudo apt install zsh
+
+sudo apt install zsh
 
 sudo apt install git
 
