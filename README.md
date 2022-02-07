@@ -46,7 +46,7 @@ DEFAULT_USER="abc"
 *   Git prompt info
 *   Git status info
 
-![screenshot](dragon-zsh-theme.png)
+![screenshot](dragon-zsh-theme2.png)
 
 ## License
 
