@@ -16,7 +16,7 @@ dragon is a minimalistic zsh prompt theme for git users
 
 wget(ohmyzsh)
 
->sh -c "$(wget -O- &#60;https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh&#62;)"
+>sh -c "$(wget -O- &#60;https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh &#62;)"
 
 ohmyzsh 폴더에 dragon-zsh-theme 파일 넣고,
 
