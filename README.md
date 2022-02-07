@@ -26,7 +26,9 @@ ohmyzsh 폴더에 dragon-zsh-theme 파일 넣고,
 >.
 >.
 >.
+>
 >&#35; DEFAULT_USER
+>
 >DEFAULT_USER="abc"
 
 
