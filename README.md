@@ -20,20 +20,18 @@ sh -c "$(wget -O- <https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tool
 ```
 
 ohmyzsh 폴더에 dragon-zsh-theme 파일 넣고,
-
->sudo vi ~/,zshrc
-
+```
+sudo vi ~/,zshrc
+```
 를 편집
-
->ZSH_THEME="dragon"
->.
->.
->.
->
->&#35; DEFAULT_USER
->
->DEFAULT_USER="abc"
-
+```
+ZSH_THEME="dragon"
+.
+.
+.
+# DEFAULT_USER
+DEFAULT_USER="abc"
+```
 
 
 
