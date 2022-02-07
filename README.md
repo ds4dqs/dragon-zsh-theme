@@ -2,12 +2,11 @@
 
 dragon is a minimalistic zsh prompt theme for git users
 
+```
 >sudo apt install zsh
->
 >sudo apt install git
->
 >chsh -s /usr/bin/zsh
-
+```
 (logout)
 
 (login)
